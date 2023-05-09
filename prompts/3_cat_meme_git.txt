@@ -1,0 +1,4 @@
+Write me a django model for cat memes. Output as a bash script that writes the files.
+
+
+Write me a django model for cat memes. Output as a python script that writes the files.

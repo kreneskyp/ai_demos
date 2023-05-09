@@ -1,0 +1,14 @@
+Write a python script that will:
+- read a tab delimited file of EPA air quality data named "air_quality.txt"
+- output a chart image displaying this information
+- data is in ./data/air_quality.txt
+- shapes are in ./data/cb_2020_us_county_20m.shp
+- shapes are in ./data/cb_2020_us_county_20m.shx
+- output as bash script that creates the python script and then runs it
+
+
+
+EXAMPLE FILE DATA:
+
+State	County	County FIPS Code	2010 Population	CO          8-hr (ppm)	Pb           3-mo (µg/m3)	NO2         AM (ppb)	NO2          1-hr (ppb)	O3            8-hr (ppm)	PM10        24-hr (µg/m3) 	PM2.5     Wtd AM (µg/m3) 	PM2.5     24-hr (µg/m3) 	SO2         1-hr (ppb)
+California	Alameda County	06001	1510271	2	ND	12	40	0.073	ND	8.7	23	3
