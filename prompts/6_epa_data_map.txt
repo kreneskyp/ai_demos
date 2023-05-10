@@ -4,6 +4,7 @@ Write a python script that will:
 - data is in ./data/air_quality.txt
 - shapes are in ./data/cb_2020_us_county_20m.shp
 - shapes are in ./data/cb_2020_us_county_20m.shx
+- script name should be "air_quality_map.py"
 - output as bash script that creates the python script and then runs it
 
 

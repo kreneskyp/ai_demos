@@ -1,4 +1,5 @@
-Write me a django model for cat memes. Output as a bash script that writes the files.
-
-
-Write me a django model for cat memes. Output as a python script that writes the files.
+Create a django app for cat & dog memes:
+- Create a model for cat memes, dog memes, and a shared model for images and comments
+- create a view for each model
+- create a template for each view
+- output as a bash script that writes the files and then opens a github pull request with gh cli
