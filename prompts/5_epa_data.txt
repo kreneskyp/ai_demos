@@ -1,10 +1,8 @@
 Write a python script that will:
 - read a tab delimited file of EPA air quality data named "air_quality.txt"
-- output a chart image displaying this information
+- output a bar chart image displaying this information
 - data is in ./data/air_quality.txt
-- shapes are in ./data/cb_2020_us_county_20m.shp
-- shapes are in ./data/cb_2020_us_county_20m.shx
-- output as bash script that creates the python script and then runs it
+- output a bash script that creates the python script and then runs it
 
 
 

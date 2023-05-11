@@ -4,10 +4,3 @@ create a django app for cat memes
 
 create a rest_framework serializers and viewset
 create a react page to display a random meme
-
-
-
-
-
-
-# full prompt

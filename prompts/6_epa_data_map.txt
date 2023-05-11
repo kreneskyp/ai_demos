@@ -1,10 +1,15 @@
 Write a python script that will:
+- do not download any data or install any packages
 - read a tab delimited file of EPA air quality data named "air_quality.txt"
-- output a chart image displaying this information
+- output a map of california county air quality using geopandas and contextily
 - data is in ./data/air_quality.txt
+- data is from census.gov
 - shapes are in ./data/cb_2020_us_county_20m.shp
 - shapes are in ./data/cb_2020_us_county_20m.shx
 - script name should be "air_quality_map.py"
+
+FORMAT:
+- do not output explanation
 - output as bash script that creates the python script and then runs it
 
 
@@ -13,3 +18,7 @@ EXAMPLE FILE DATA:
 
 State	County	County FIPS Code	2010 Population	CO          8-hr (ppm)	Pb           3-mo (µg/m3)	NO2         AM (ppb)	NO2          1-hr (ppb)	O3            8-hr (ppm)	PM10        24-hr (µg/m3) 	PM2.5     Wtd AM (µg/m3) 	PM2.5     24-hr (µg/m3) 	SO2         1-hr (ppb)
 California	Alameda County	06001	1510271	2	ND	12	40	0.073	ND	8.7	23	3
+California	Amador County	06005	38091	ND	ND	ND	ND	0.071	ND	ND	ND	ND
+California	Butte County	06007	220000	1	ND	5	22	0.074	129	11.1	51	ND
+California	Calaveras County	06009	45578	ND	ND	ND	ND	0.072	94	8.4	31	ND
+California	Colusa County	06011	21419	ND	ND	ND	ND	0.061	118	12.1	56	ND

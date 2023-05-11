@@ -7,4 +7,4 @@ create a django app for tracking cat memes:
 - create docker-compose config with postgres and redis
 - create config for black, flake8, pytest
 - create github workflow for testing and building an image
-- output a list of files
+- output just a json list of files in a codeblock
