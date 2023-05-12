@@ -56,3 +56,7 @@ HUMAN:
 - include models rest_framework viewset, react component to display a random cat meme
 
 
+- create a webpack config file
+- add new app to INSTALLED_SETTINGS
+- add webpack output to STATICFILES_DIRS
+- run migrations

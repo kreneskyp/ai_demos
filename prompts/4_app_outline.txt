@@ -8,3 +8,8 @@ create a django app for tracking cat memes:
 - create config for black, flake8, pytest
 - create github workflow for testing and building an image
 - output just a json list of files in a codeblock
+
+
+Create a python script that uses "gpt-3.5-turbo" model via openAI API to create each of the files in the JSON list.
+The script should generate a prompt that will generate the file with appropriate context.
+include a small delay and retries to avoid rate limiting.
