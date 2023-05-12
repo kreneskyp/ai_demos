@@ -1,0 +1,4 @@
+{% for meme in memes %}
+    <h2>{{ meme.title }}</h2>
+    <img src="{{ meme.image.url }}" alt="{{ meme.title }}">
+{% endfor %}
